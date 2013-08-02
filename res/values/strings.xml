@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_cari">CariActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_regiater">RegiaterActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_mobil_baru">MobilBaruActivity</string>
+    <string name="title_activity_profil_member">ProfilMemberActivity</string>
+    <string name="title_activity_tab_layout">TabLayoutActivity</string>
+    <string name="title_activity_mobil_bekas">MobilBekasActivity</string>
+    <string name="title_activity_upload_iklan">UploadIklanActivity</string>
+    <string name="title_activity_edit_profil">EditProfilActivity</string>
+    <string name="title_activity_upload_foto">UploadFotoActivity</string>
+    <string name="title_activity_detail_profil">DetailProfilActivity</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_activity_hasilcari">HasilcariActivity</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+
+</resources>

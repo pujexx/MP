@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kukuh.mp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kukuh.mp.SplashscreenActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.CariActivity"
+            android:label="@string/title_activity_cari"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.MobilBaruActivity"
+            android:label="@string/title_activity_mobil_baru"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.ProfilMemberActivity"
+            android:label="@string/title_activity_profil_member"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.TabLayoutActivity"
+            android:label="@string/title_activity_tab_layout"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.MobilBekasActivity"
+            android:label="@string/title_activity_mobil_bekas"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.UploadIklanActivity"
+            android:label="@string/title_activity_upload_iklan"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.EditProfilActivity"
+            android:label="@string/title_activity_edit_profil"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.UploadFotoActivity"
+            android:label="@string/title_activity_upload_foto"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.DetailProfilActivity"
+            android:label="@string/title_activity_detail_profil" >
+        </activity>
+
+        <receiver
+            android:name="com.kukuh.mp.TimeAlarm"
+            android:process=":remote" >
+        </receiver>
+
+        <activity
+            android:name="com.kukuh.mp.MainActivity"
+            android:label="@string/title_activity_splashscreen"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.LoadingActivity"
+            android:label="@string/title_activity_loading"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.HasilcariActivity"
+            android:label="@string/title_activity_hasilcari" >
+        </activity>
+        <activity
+            android:name="com.kukuh.mp.BerandaActivity"
+            android:label="@string/title_activity_beranda"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>
