@@ -105,7 +105,7 @@ public class HomeActivity extends Activity {
 		//jumlahhal = (int) Math.ceil(jumlahiklan / perhal);
 		
 		//RefreshList();
-		new AsyncRefreshList().execute();
+		
 		
 		Button btnhomeback = (Button)findViewById(R.id.btnhomeback);
 		btnhomeback.setOnClickListener(new OnClickListener() {
@@ -510,6 +510,7 @@ public class HomeActivity extends Activity {
 			// TODO Auto-generated method stub
 			super.onPostExecute(result);
 			jumlahhal = (int) Math.ceil(jumlahiklan / perhal);
+			new AsyncRefreshList().execute();
 			loading.dismiss();
 		}
 

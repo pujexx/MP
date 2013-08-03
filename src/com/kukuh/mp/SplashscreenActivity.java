@@ -36,7 +36,8 @@ public class SplashscreenActivity  extends Activity {
                     Intent i;
                     i = new Intent(SplashscreenActivity.this, MainActivity.class);
                     startActivity(i); 
-                    stop();
+                   // stop();
+                   
                 }
             }
         };
